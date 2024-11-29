@@ -4,7 +4,7 @@ import ChildComponents from './childComponents'
 const parentComponents = () => {
     const about = "About MySelf"
     const myName = "I'm Fazilat Jahan,";
-    const profession = "a FontEnd Developer";
+    const profession = "a FrontEnd Developer";
     const education= "& Pursuing Degree in Agentic AI Engineering"
     return (
         <div>
