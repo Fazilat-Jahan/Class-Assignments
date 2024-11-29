@@ -2,10 +2,10 @@ import React from 'react'
 import ChildComponents from './childComponents'
 
 const parentComponents = () => {
-    let about = "About MySelf"
-    let myName = "I'm Fazilat Jahan,";
-    let profession = "a FontEnd Developer";
-    let education= "& Pursuing Degree in Agentic AI Engineering"
+    const about = "About MySelf"
+    const myName = "I'm Fazilat Jahan,";
+    const profession = "a FontEnd Developer";
+    const education= "& Pursuing Degree in Agentic AI Engineering"
     return (
         <div>
             <ChildComponents about={about} />
