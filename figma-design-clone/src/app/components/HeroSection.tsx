@@ -2,8 +2,8 @@ import React from 'react'
 
 const HeroSection = () => {
     return (
-        <div className=' flex w-[1920] h-[829] px-[220] py-[140] bg-[#043873]'>
-            <div className='w-1/2 flex flex-col '>
+        <div className=' flex w-[1920] h-[829] m-auto px-[220px] py-[140] bg-[#043873]'>
+            <div className='w-1/2 flex flex-col items-center '>
                 <div className='m-[60px] w-[656px] h-[361px] font-[inter] text-white '>
 
                     <h1 className=' text-[64px] leading-[auto] font-bold my-6'>Get More Done With whitepace</h1>
@@ -12,7 +12,7 @@ const HeroSection = () => {
                 </div>
             </div>
 
-            <div className='w-1/2 flex flex-col'>
+            <div className='w-1/2 flex flex-col items-center'>
                 <div className='bg-[#C4DEFD] w-[824px] h-[549px] m-[10px] '></div>
             </div>
 
