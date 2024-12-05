@@ -2,7 +2,7 @@ import React from 'react'
 
 const HeroSection = () => {
     return (
-        <div className=' flex w-[1920] h-[829] m-auto px-[220px] py-[140] bg-[#043873]'>
+        <div className=' flex w-[1920px] h-[829px] m-auto px-[220px] py-[140px] bg-[#043873]'>
             <div className='w-1/2 flex flex-col items-center '>
                 <div className='m-[60px] w-[656px] h-[361px] font-[inter] text-white '>
 
