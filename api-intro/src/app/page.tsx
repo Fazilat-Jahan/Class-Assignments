@@ -11,8 +11,8 @@ export default async function Home() {
   return (
     <div>
       {
-        res.map((book: any) => (
-          <div>
+        res.map((book: any, index:number) => (
+          <div key={index}>
             <Link href={`${book.id}`}>
             <h1 className="text-4xl font-bold">Book: {book.name}
             {/* {book.id} */}
